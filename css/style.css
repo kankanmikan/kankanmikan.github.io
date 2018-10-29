@@ -241,6 +241,9 @@ background-color:rgb(250, 230, 40);
 	display:block;
 	float:inherit;
 	color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
 }
 
 .yell{
@@ -268,31 +271,37 @@ background-color:rgb(250, 230, 40);
 }
 
 .i1{
-color: white;
+color: rebeccapurple;
 background-color:rgb(240, 150, 0);	
 }
 
 .i2{
-color: white;
+color: rebeccapurple;
 background-color:rgb(140, 190, 50);	
 }
 
 .i3{
-color: white;
+color: rebeccapurple;
 background-color:rgb(10, 190, 240);	
 }
 
 .i4{
-color: white;
+color: rebeccapurple;
 background-color:rgb(230, 70, 10);	
 }
 
 .i5{
-color: white;
+color: rebeccapurple;
 background-color:rgb(250, 230, 40);	
 }
 
 a{
 font-family: 'Fira Sans', sans-serif;	
 color: white;
+}
+
+span{
+padding: 0;
+text-align: center;
+color: rebeccapurple;
 }
