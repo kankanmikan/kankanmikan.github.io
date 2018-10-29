@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.page1{
+background-color:rgb(240, 150, 0);
+}
+
+.page2{
+background-color:rgb(140, 190, 50);
+}
+
+.page3{
+background-color:rgb(10, 190, 240);
+}
+
+.page4{
+background-color:rgb(230, 70, 10);
+}
+
+.page5{
+background-color:rgb(250, 230, 40);
+}
+
+.title{
+	background-color:rgb(240, 170, 0);
+}
+
+.e2{
+	height: 100px;
+}
+
+.con1{
+	background-color:rgb(240, 190, 0);
+	padding: 0px;
+}
+
+.doble{
+	height: 50px;
+	background-color:rgb(140, 190, 50);
+}
+
+.intro{
+	background-color:rgb(140, 190, 50);
+}
+
+.rules{
+	height: 150px;
+	background-color:rgb(40, 180, 230);
+}
+
+.intro{
+	padding: 0;
+	background-color:rgb(160, 200, 50);
+}
+
+.good{
+	background-color:rgb(180, 200, 40);
+}
+
+.evil{
+	background-color:rgb(200, 210, 30);
+}
+
+.lista{
+	padding: 0;
+	background-color:rgb(50, 190, 240);
+}
+
+.mapa{
+	background-color:rgb(100, 200, 240);
+}
+
+.pics{
+	background-color:rgb(240, 90, 10);
+}
+
+.fill{
+	height: 200px;
+	background-color:rgb(250, 230, 40);
+}
+
+.refill{
+	height: 100px;
+	background-color:rgb(250, 230, 40);
+}
+
+.m1{
+	background-color:rgb(240, 140, 0);
+}
+
+.m2{
+	background-color:rgb(140, 190, 50);
+}
+
+.m3{
+	background-color:rgb(50, 190, 240);
+}
+
+.m4{
+	background-color:rgb(230, 70, 10);
+}
+
+.m5{
+	background-color:rgb(250, 230, 40);
+}
+
+.m6{
+	background-color:rgb(240, 160, 0);
+}
+
+.m7{
+	background-color:rgb(160, 190, 50);
+}
+
+.m8{
+	background-color:rgb(100, 190, 240);
+}
+
+.m9{
+	background-color:rgb(230, 90, 10);
+}
+
+.m10{
+	height: 200px;
+	background-color:rgb(250, 230, 40);
+}
+
+.m11{
+	height: 200px;
+	background-color:rgb(240, 180, 0);
+}
+
+.m12{
+	height: 200px;
+	background-color:rgb(180, 190, 50);
+}
+
+.m13{
+	height: 200px;
+	background-color:rgb(120, 190, 240);
+}
+
+.m14{
+	height: 200px;
+	background-color:rgb(230, 110, 10);
+}
+
+.m15{
+	height: 200px;
+	background-color:rgb(250, 230, 40);
+}
+
+.tc1{
+	font-family: 'Fira Sans', sans-serif;
+	color: darkorange;
+	font-size: 148px;
+	width: 100%;
+	padding: 0px;
+}
+
+.introp2{
+	font-family: 'Fira Sans', sans-serif;	
+	color: white;
+	font-size: 32px;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.introp1{
+	font-family: 'Fira Sans', sans-serif;	
+	color: white;
+	font-size: 24px;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.vent{
+	font-family: 'Fira Sans', sans-serif;	
+	color: white;
+	font-size: 24px;
+	width: 100%;
+	height: 100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.dvent{
+	font-family: 'Fira Sans', sans-serif;	
+	color: white;
+	font-size: 24px;
+	width: 100%;
+	height: 100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.numbers{
+	font-family: 'Fira Sans', sans-serif;	
+	color: white;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+	padding-top: 120px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 60px;
+}
+
+.e1{
+	font-family: 'Fira Sans', sans-serif;	
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navi{
+	font-family: 'Fira Sans', sans-serif;	
+	background-color: rebeccapurple;
+	display:block;
+	float:inherit;
+	color: white;
+}
+
+.yell{
+	font-family: 'Fira Sans', sans-serif;	
+	color: orange;
+	font-size: 36px;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.adinf{
+	font-family: 'Fira Sans', sans-serif;	
+	color: white;
+	font-size: 36px;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.i1{
+color: white;
+background-color:rgb(240, 150, 0);	
+}
+
+.i2{
+color: white;
+background-color:rgb(140, 190, 50);	
+}
+
+.i3{
+color: white;
+background-color:rgb(10, 190, 240);	
+}
+
+.i4{
+color: white;
+background-color:rgb(230, 70, 10);	
+}
+
+.i5{
+color: white;
+background-color:rgb(250, 230, 40);	
+}
+
+a{
+font-family: 'Fira Sans', sans-serif;	
+color: white;
+}
