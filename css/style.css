@@ -5,6 +5,7 @@
 	padding: 0px;
 }
 
+/* ESTO ES LO PRINCIPAL PARA DIFERENCIAR LAS 5 PAGINAS */
 .page1{
 background-color:rgb(240, 150, 0);
 }
@@ -24,6 +25,8 @@ background-color:rgb(230, 70, 10);
 .page5{
 background-color:rgb(250, 230, 40);
 }
+
+/* ESTO ES LO PRINCIPAL PARA DIFERENCIAR LAS 5 PAGINAS (AQUÍ TERMINA) */
 
 .title{
 	background-color:rgb(240, 170, 0);
@@ -157,7 +160,7 @@ background-color:rgb(250, 230, 40);
 .tc1{
 	font-family: 'Fira Sans', sans-serif;
 	color: darkorange;
-	font-size: 130px;
+	font-size: 120px;
 	width: 100%;
 	padding: 0px;
 }
@@ -304,4 +307,13 @@ span{
 padding: 0;
 text-align: center;
 color: rebeccapurple;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
