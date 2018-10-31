@@ -28,6 +28,10 @@ background-color:rgb(250, 230, 40);
 
 /* ESTO ES LO PRINCIPAL PARA DIFERENCIAR LAS 5 PAGINAS (AQUÍ TERMINA) */
 
+
+/* NO HAY QUE MANEJAR LAS ALTURAS DE MANERA ESPECIFICA, LA PAGINA NO FUNCIONA PORQUE NECESITA CAMBIAR
+DE MANERA ESCALAR AL TRABAJAR EN MOVILES Y EN PANTALLAS */
+
 .title{
 	background-color:rgb(240, 170, 0);
 }
@@ -90,6 +94,8 @@ background-color:rgb(250, 230, 40);
 	height: 100px;
 	background-color:rgb(250, 230, 40);
 }
+
+/* USA DIFERENTES POR LAS VARIACIONES DE COLORES DE LOS ESPACIOS PARA LA PARTE DEL "ROMPECABEZAS" */
 
 .m1{
 	background-color:rgb(240, 140, 0);
@@ -156,6 +162,10 @@ background-color:rgb(250, 230, 40);
 	height: 200px;
 	background-color:rgb(250, 230, 40);
 }
+
+
+/* TPÍTULOS Y CONTENIDOS SON PARECIDOS, SE PUEDEN MANEJRA DE MANERA IGUAL, PERO CAMBIAN DEPENDIENDO 
+DEL ESTILO DE PAGINA */
 
 .tc1{
 	font-family: 'Fira Sans', sans-serif;
@@ -316,4 +326,16 @@ color: rebeccapurple;
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+
+.dropdown{
+font-family: 'Fira Sans', sans-serif;	
+font-size: 24px;
+padding: 5px;
+}
+
+.dropdown-toggle{
+font-size: 24px;
+font-family: 'Fira Sans', sans-serif;
+padding: 2px;	
 }
